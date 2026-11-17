@@ -1,0 +1,8 @@
+[package]
+name = "eventfd"
+version = "0.1.0"
+edition = "2024"
+description = "The eventfd Command Demonstrates Linux Event Counters by Combining Writes into a Single Read or Consuming Counts Individually in Semaphore Mode"
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
